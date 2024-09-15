@@ -349,7 +349,7 @@ class LLMResumer:
             "work_experience": work_experience_fn,
             "side_projects": side_projects_fn,
             "achievements": achievements_fn,
-            "certifications": certifications_fn,
+            # "certifications": certifications_fn,
             "additional_skills": additional_skills_fn,
         }
 
@@ -372,7 +372,7 @@ class LLMResumer:
         full_resume += f"    {results.get('work_experience', '')}\n"
         full_resume += f"    {results.get('side_projects', '')}\n"
         full_resume += f"    {results.get('achievements', '')}\n"
-        full_resume += f"    {results.get('certifications', '')}\n"
+        # full_resume += f"    {results.get('certifications', '')}\n"
         full_resume += f"    {results.get('additional_skills', '')}\n"
         full_resume += "  </main>\n"
         full_resume += "</body>"
